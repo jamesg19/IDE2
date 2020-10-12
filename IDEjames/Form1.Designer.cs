@@ -81,33 +81,33 @@
             // AbrirMenuItem
             // 
             this.AbrirMenuItem.Name = "AbrirMenuItem";
-            this.AbrirMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.AbrirMenuItem.Size = new System.Drawing.Size(153, 22);
             this.AbrirMenuItem.Text = "Abrir";
             this.AbrirMenuItem.Click += new System.EventHandler(this.AbrirToolStripMenuItem_Click);
             // 
             // NuevoArchivoMenuItem
             // 
             this.NuevoArchivoMenuItem.Name = "NuevoArchivoMenuItem";
-            this.NuevoArchivoMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.NuevoArchivoMenuItem.Size = new System.Drawing.Size(153, 22);
             this.NuevoArchivoMenuItem.Text = "Nuevo Archivo";
             this.NuevoArchivoMenuItem.Click += new System.EventHandler(this.NuevoArchivoToolStripMenuItem_Click);
             // 
             // GuardarMenuItem
             // 
             this.GuardarMenuItem.Name = "GuardarMenuItem";
-            this.GuardarMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.GuardarMenuItem.Size = new System.Drawing.Size(153, 22);
             this.GuardarMenuItem.Text = "Guardar";
             this.GuardarMenuItem.Click += new System.EventHandler(this.GuardarToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(150, 6);
             // 
             // GuardarcomoMenuItem
             // 
             this.GuardarcomoMenuItem.Name = "GuardarcomoMenuItem";
-            this.GuardarcomoMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.GuardarcomoMenuItem.Size = new System.Drawing.Size(153, 22);
             this.GuardarcomoMenuItem.Text = "Guardar como";
             this.GuardarcomoMenuItem.Click += new System.EventHandler(this.guardarToolStripMenuItem_Click_1);
             // 
@@ -244,7 +244,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Text = "Compilador de Codigo 1.0";
+            this.Text = "Compilador de Codigo 2.0 <James></James>";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
