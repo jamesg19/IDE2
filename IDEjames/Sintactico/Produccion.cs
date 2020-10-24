@@ -37,15 +37,5 @@ namespace IDEjames.Sintactico
         public const int F2 = 124;
 
         public const int INICIAL = 125;
-
-        public void setValorAsignado(string valorAsignado)
-        {
-            this.valorAsignado = valorAsignado;
-        }
-
-        public string getValorAsignado()
-        {
-            return this.valorAsignado;
-        }
     }
 }
