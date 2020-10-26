@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IDEjames.Analizador
+namespace IDEjames.Sintactico
 {
     class Estado
     {
+
         private readonly int[] EstadosDeAceptacion = { estadoB1, estadoC1, estadoC2, estadoB3, estadoC3, estadoE3, estadoF3, estadoI3, estadoB4, estadoC4, estadoE4, estadoE, estadoSA, estadoJ };
 
         public const int estadoA = 0;
@@ -60,5 +61,6 @@ namespace IDEjames.Analizador
                 return false;
             }
         }
+
     }
 }
